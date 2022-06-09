@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de imc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
+</head>
+<body>
+
+        <h1>Calcular IMC</h1>
+        <form>
+        <h2>CALCULE SEU IMC</h2>
+        
+
+        <label for="peso">Informe seu peso (kg)</label>
+            <input type="text" id="peso" class="money2">
+        <br>
+    
+        <label for="altura">Informe sua altura</label>
+            <input type="text" id="altura" class="money">
+        <br>
+        <br>
+        <input type="button" name="BtnEnviar" id="BtnEnviar" value="Enviar" onclick="calculoimc()">
+        </form>
+
+        <div id="ex1" class="modal">
+            <p>Thanks for clicking. That felt good.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+
+
+    <script src="OsJquerry/jquery-3.6.0.min.js"></script>
+    <script src="OsJquerry/jquery.mask.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="imc.js"></script>
+    
+</body>
+</html>

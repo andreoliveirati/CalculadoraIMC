@@ -1,0 +1,44 @@
+
+
+h2 {
+    color:rgb(12, 129, 129);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+
+}
+
+label {
+    color: rgb(43, 162, 184);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+input {
+    border-color: rgb(43, 161, 161);
+    border-width: 1px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    
+    
+}
+
+#BtnEnviar {
+   
+    color: rgb(12, 107, 107);
+    background-color: rgb(202, 196, 196);
+    border: none;
+    width: 100px;
+   
+    font-size: 20px;
+    text-align: center;
+}
